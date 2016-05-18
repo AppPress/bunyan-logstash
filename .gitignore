@@ -1,0 +1,44 @@
+# big data
+db_backup
+dev-data
+
+# boring stuff
+.DS_Store
+.idea
+npm-debug.log
+newrelic_agent.log
+
+# sensitive data
+*.pem
+config/secure/*.json
+config/settings/development.json
+
+# dev artifacts
+public/stylesheets/*.css
+
+# build artifacts
+dist
+
+# except build artifacts
+*.node
+*.a
+*.o
+*.dylib
+*.o.d
+*.node.d
+*.target.mk
+*.Makefile
+linker.lock
+config.gypi
+builderror.log
+gyp-mac-tool
+Makefile
+node_modules
+coverage
+bower_components
+
+# unsure
+temp
+*.swp
+*~
+.settings.xml
